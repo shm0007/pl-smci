@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  Jenny works at Dotify, a music company that has millions of users. Her company is sponsoring a contest to develop an improved recommendation system that bases its decisions on Dotify users' detailed music preferences. The company doesn't want to release information identifying individual users, so Jenny removes the names, emails, phone numbers, and other Personally Identifying Information (PII) from the data. In place of the user's name, Jenny enters a unique ID number output from a random number generator that has no relationship to anything about the user. Jenny then makes the anonymized data available as a public download for teams competing in the contest. A few months later it is revealed that rival company Monodora has identified thousands of Monodora users with accounts on both services and has incorporated the Dotify preference data into the users' Monodora accounts to improve Monodora's own music recommendations.
+
+</p> <p> Question:  Choose the option that best explains how this could have happened, even though Dotify removed all Personally Identifying Information (PII) from the user data.</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+Monodora compared their own user data with Dotify's to deanonymize indivduals.
+</pl-answer>
+<pl-answer correct="false">
+User identities were compromised before the PII was removed from the data.
+</pl-answer>
+<pl-answer correct="false">
+The random number generator used by Jenny was insufficiently random, allowing users to be deanonymized.
+</pl-answer>
+<pl-answer correct="false">
+Because ID numbers were assigned to specific individuals, Monodora was able to identify Dotify users when both apps were installed on the same device.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>

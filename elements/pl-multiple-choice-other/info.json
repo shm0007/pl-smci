@@ -1,0 +1,8 @@
+{
+    "controller": "pl-multiple-choice-other.py",
+    "dependencies": {
+        "elementStyles": [
+            "pl-multiple-choice-other.css"
+        ]
+    }
+}

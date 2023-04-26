@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  Alice and her good friend Bob needed to send messages to each other privately. Alice generated a 64-character encryption key by drawing words randomly from a dictionary and combining them. Then, she sent Bob her 64-character key via email. Once Bob received the key, Alice and Bob encrypted and decrypted messages using a standard encryption algorithm and sent them to each other over the Internet. One day, Alice received an insulting message that was properly encrypted but that Bob insists he did not send.
+
+</p> <p> Question:  What is the most likely explanation for how this could have happened, even though Bob and Alice are using encryption.</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+Email is an unsafe method for key sharing.
+</pl-answer>
+<pl-answer correct="false">
+The key they used is not strong.
+</pl-answer>
+<pl-answer correct="false">
+The messages were intercepted when sent over the internet.
+</pl-answer>
+<pl-answer correct="false">
+Bob lied to Alice; he actually sent the message to her.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>

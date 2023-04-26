@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  Alice, Bob, and Charlie were doing business together, but now Bob and Charlie are suing Alice. When they were in the same place, each pair of partners (e.g., Alice & Bob, Alice & Charlie, and Bob & Charlie) agreed upon unique, long, and random encryption keys for use with a strong cipher to keep contract negotiation messages confidential. Messages were sent over an unencrypted wifi connection. After some negotiation, everyone comes to an agreement, so they send encrypted messages with the agreement to each other with their names added to the bottom. Bob and Charlie sent Alice the agreed-upon goods, and Alice paid them each <span>&#36;</span>5,000. However, Bob and Charlie present evidence to the court that Alice agreed to pay them each not <span>&#36;</span>5,000, but <span>&#36;</span>10,000! The evidence they provide is a set of contract messages from Alice to each of them (with their names at the bottom and each encrypted with the correct key) where she agrees to pay each of them <span>&#36;</span>10,000.  Alice presents versions of the contracts where the price is not <span>&#36;</span>10,000, but <span>&#36;</span>5,000.
+
+</p> <p> Question:  How should the judge rule in this case, and why?</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+The case should be dismissed, because it is impossible to know who is telling the truth.
+</pl-answer>
+<pl-answer correct="false">
+Bob and Charlie should win, because Alice is trying to cheat them.
+</pl-answer>
+<pl-answer correct="false">
+Bob and Charlie should lose, because they are trying to cheat Alice.
+</pl-answer>
+<pl-answer correct="false">
+The case should be dismissed, because the unencrypted wireless network makes the evidence meaningless.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>

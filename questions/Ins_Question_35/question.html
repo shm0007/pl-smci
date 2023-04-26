@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  Max has many online accounts. Max wants to be very secure, so they create a random 64-character password containing many upper- and lower-case letters, many numbers, and many special characters (e.g., !, @, #, ?, etc.). No characters repeat adjacent to each other (e.g., "aa"), and no special character is used more than once. Max then memorizes and uses this very strong password for all their online accounts.
+
+</p> <p> Question:  Choose the option that describes the most significant security problem with this approach.</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+Passwords can be leaked when systems are compromised.
+</pl-answer>
+<pl-answer correct="false">
+The password would be hard to memorize, so Max would probably write it down.
+</pl-answer>
+<pl-answer correct="false">
+The password might not meet a particular website's password rules.
+</pl-answer>
+<pl-answer correct="false">
+A computer algorithm could guess the password with enough tries.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>

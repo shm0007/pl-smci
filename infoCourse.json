@@ -1,0 +1,74 @@
+{
+    "uuid": "efe178df-6172-4338-935d-bc1bac4c12a1",
+    "name": "SMCI",
+    "title": "Security Misconceptions Convept Inventory",
+	"assessmentSets": [
+          {"abbreviation": "SMCI", "name": "Security Misconceptions Convept Inventory", "heading": "Security Misconceptions Convept Inventory", "color": "turquoise2"}
+	],
+    "topics": [
+        {"name": "Authentication", "color": "red1"},
+        {"name": "None", "color": "orange2"},
+        {"name": "Confidentiality", "color": "red2"},
+        {"name": "Integrity", "color": "red3"},
+        {"name": "Non-Repudiation", "color": "yellow1"},
+        {"name": "Trust", "color": "yellow2"},
+        {"name": "Validation", "color": "yellow3"},
+        {"name": "Security Theater", "color": "pink1"},
+        {"name": "Protocol", "color": "pink2"},
+        {"name": "Biometric Authentication", "color": "pink3"},
+        {"name": "Insider Threat", "color": "turquoise1"},
+        {"name": "Network Design", "color": "turquoise2"},
+        {"name": "Social Engineering", "color": "turquoise3"},
+        {"name": "MAC", "color": "gray1"},
+        {"name": "Injection", "color": "gray2"},
+        {"name": "Input Validation", "color": "gray3"},
+        {"name": "Mutual Authentication", "color": "purple1"},
+        {"name": "Replay", "color": "purple2"},
+        {"name": "Physical Attack", "color": "purple3"},
+        {"name": "PKC", "color": "green1"},
+        {"name": "Authorization", "color": "green2"},
+        {"name": "Revocation", "color": "green2"},
+        {"name": "Encryption", "color": "green3"},
+        {"name": "Cryptography", "color": "green3"},
+        {"name": "Vulnerability", "color": "brown1"},
+        {"name": "Firewall", "color": "brown2"},
+        {"name": "Certificates", "color": "brown3"},
+        {"name": "Checking Passwords", "color": "turquoise1"},
+        {"name": "Code Deployment", "color": "turquoise2"},
+        {"name": "Entropy", "color": "turquoise3"},
+        {"name": "Key Management", "color": "green1"},
+        {"name": "Log Analysis", "color": "green2"},
+        {"name": "Network Monitoring", "color": "pink1"},
+        {"name": "Permissions", "color": "pink2"},
+        {"name": "Phishing", "color": "pink3"},
+        {"name": "Protocol Analysis", "color": "purple1"},
+        {"name": "Protocol Security", "color": "purple1"},
+        {"name": "Randomness", "color": "purple2"},
+        {"name": "SQL", "color": "purple3"},
+        {"name": "Supply Chain Security", "color": "red1"},
+        {"name": "Trust and Hashing", "color": "red2"},
+        {"name": "Two-Factor Authentication", "color": "red3"},
+        {"name": "Undecidability and Provable Security", "color": "blue1"},
+        {"name": "Unexplained Behavior", "color": "blue2"},
+        {"name": "Web Applications", "color": "blue3"},
+        {"name": "cci", "color": "orange1"},
+        {"name": "cca", "color": "orange2"},
+		{"name": "Physical Security", "color": "orange2"},
+		{"name": "Target", "color": "red1"},
+		{"name": "Adversarial Thinking", "color": "blue2"},
+		{"name": "Anonymity and Privacy", "color": "brown1"},
+		{"name": "Access Control", "color": "pink1"},
+		{"name": "Security Control", "color": "orange2"}
+		
+		
+		
+		
+		
+    ],
+    "tags": [
+        {"name": "easy", "color": "orange1"},
+        {"name": "medium", "color": "orange2"},
+        {"name": "hard", "color": "orange3"},
+        {"name": "None", "color": "brown1"}
+    ]
+}

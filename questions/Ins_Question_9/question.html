@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  Your friend developed a revolutionary new kind of social network. They rented a server in a datacenter to host the public website. However, not trusting another company to store their users' data, they installed a high-bandwidth link in their house and ran both the database and backup servers in their basement. Your friend carefully configures the database server to communicate with the website securely, including validating and sanitizing all data, and configures the backup server to make a copy of the database once per day. They apply all security updates to all servers as soon as they are available.
+
+</p> <p> Question:  What is the most likely way that an attacker could successfully steal the data on the backend server?</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+Break into the basement and take the server.
+</pl-answer>
+<pl-answer correct="false">
+Connect to the home's wifi network and perform a Man in the Middle Attack (MITM).
+</pl-answer>
+<pl-answer correct="false">
+Perform an SQL injection on the database via the public web interface.
+</pl-answer>
+<pl-answer correct="false">
+Hack the backup server, as it is less likely to be secure.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>

@@ -1,0 +1,216 @@
+{
+    "set": "Security Misconceptions Concept Inventory", 
+    "uuid": "29114f9d-cd05-484a-8ead-01b125358abf", 
+    "title": "Security Misconceptions Concept Inventory", 
+    "number": "1", 
+    "shuffleQuestions": false,
+    "type": "Exam",
+    "multipleInstance": false,
+    "autoClose": false,
+    "maxPoints": 25,
+    "allowAccess": [
+        {
+            "mode": "Public",
+            "credit": 100,
+            "startDate": "2019-06-01T13:59:59",
+            "endDate": "2023-06-01T13:59:59"
+        }
+    ],
+    "zones": [
+        {
+            "title": "Exam Instructions",
+            "questions": [
+                {
+                    "numberChoose": 1, 
+                    "points": 0, 
+                    "id": "Student_Instructions"
+                },
+                {
+                    "numberChoose": 1, 
+                    "points": 0, 
+                    "id": "demographics"
+                }
+            ]
+        },
+        {
+            "title": "Scenario 1",
+            "questions": [
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_1"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_2"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_3"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_4"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_5"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_6"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_7"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_8"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_9"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_10"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_11"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_12"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_13"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_14"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_15"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_16"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_17"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_18"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_19"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_20"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_21"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_22"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_23"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_24"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_25"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_26"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_27"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_28"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_29"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_30"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_31"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_32"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_33"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_34"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Question_35"
+    }
+]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+  
+{
+    "controller": "pl-checkbox-other.py",
+    "dependencies": {
+        "elementStyles": [
+            "pl-checkbox-other.css"
+        ]
+    }
+}

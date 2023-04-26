@@ -1,0 +1,12 @@
+{
+    "uuid": "2acc6fb5-3109-457c-a6f6-26e5ce224743",
+    "shortName": "2019-2023",
+    "longName": "2019-2023",
+    "allowAccess": [
+        {
+            "startDate": "2019-05-14T00:00:01",
+            "endDate": "2023-12-31T23:59:59",
+            "institution": "Any"
+        }
+    ]
+}

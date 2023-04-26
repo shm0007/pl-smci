@@ -1,0 +1,228 @@
+{
+    "set": "Security Misconceptions Concept Inventory", 
+    "uuid": "7e9503a8-79e4-425f-99a4-8f95a678cd53", 
+    "title": "Security Misconceptions Concept Inventory (Expert review)", 
+    "number": "1", 
+    "shuffleQuestions": false,
+    "type": "Homework",
+    "multipleInstance": false,
+    "maxPoints": 25,
+    "allowAccess": [
+        {
+            "mode": "Public",
+            "uids": [
+                "smatsumoto90@gmail.com",
+                "ivmarsa@gmail.com",
+                "yaylacic@gmail.com",
+                "tamara.denning@gmail.com",
+                "mnb@illinois.edu",
+                "peter.reiher@gmail.com",
+                "amir@cs.stonybrook.edu",
+                "sands@morainevalley.edu",
+                "eugene.vasserman@gmail.com",
+                "barker_michael1@columbusstate.edu",
+                "eugene.rooney@gmail.com",
+                "jnrobert.is@gmail.com", 
+                "jvgreen@gmail.com", 
+                "glherman@gmail.com",
+                "mohammadiftekhar.husain@gmail.com",
+                "Loyce.pailen@umuc.edu"
+            ],
+            "credit": 100,
+            "startDate": "2019-06-01T13:59:59",
+            "endDate": "2023-06-01T13:59:59"
+        }
+    ],
+    "zones": [
+        {
+            "title": "Exam Instructions",
+            "questions": [
+                {
+                    "numberChoose": 1, 
+                    "points": 1, 
+                    "id": "Exam_Instructions"
+                }
+            ]
+        },
+        {
+            "title": "Scenario 1",
+            "questions": [
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_1"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_2"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_3"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_4"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_5"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_6"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_7"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_8"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_9"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_10"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_11"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_12"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_13"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_14"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_15"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_16"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_17"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_18"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_19"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_20"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_21"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_22"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_23"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_24"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_25"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_26"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_27"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_28"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_29"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_30"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_31"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_32"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_33"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_34"
+    },
+    {
+        "numberChoose": 1,
+        "points": 1,
+        "id": "Ins_Question_35"
+    }
+]
+        }
+    ]
+}

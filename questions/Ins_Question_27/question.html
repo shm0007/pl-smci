@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  Baz installed Windows XP on an old computer to play old video games with their roommate. Knowing that the XP computer would be vulnerable because it is no longer getting security updates, Baz finds some instructions online describing how to turn a different computer into a firewall and follows them exactly before putting the Windows XP computer on the network. The next day, however, Baz discovers that their Windows XP computer has nevertheless been infected with malware.
+
+</p> <p> Question:  What is the most likely way that Baz' computer could have gotten infected, even though they set up a firewall for it.</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+The instructions for creating the firewall were not correct for Baz' environment.
+</pl-answer>
+<pl-answer correct="false">
+The malware was already installed on the Windows XP machine before the firewall was set up.
+</pl-answer>
+<pl-answer correct="false">
+Computers cannot be turned into firewalls.
+</pl-answer>
+<pl-answer correct="false">
+The old video games contain malware.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>

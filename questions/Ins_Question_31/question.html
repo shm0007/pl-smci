@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  Jack runs IT for a company that stores all of its data in a large database. All connections to the server are encrypted using a common encryption algorithm and a firewall is used to only allow in authorized traffic. There are two permission groups on the database server: The default group, Management, is for employees such as Jack who need access to the entire system. The second group, Employees, is for employees who only need access to non-sensitive information. A new employee named Ellie is hired, but she stopped showing up after a week. Later, it was revealed that Ellie stole a large sum of money from the company and left the country.
+
+</p> <p> Question:  Choose the best explanation for how this likely happened.</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+The company's IT policies are at fault.
+</pl-answer>
+<pl-answer correct="false">
+Jack forgot to remove Ellie's account from the system after she left.
+</pl-answer>
+<pl-answer correct="false">
+The stored data is encrypted using a common encryption so it could be easily decrypted.
+</pl-answer>
+<pl-answer correct="false">
+Ellie is working with Jack or another insider.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>

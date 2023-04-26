@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  John is a talent agent for famous movie stars. He uses the Zircon instant messaging service to chat with his celebrity clients. Zircon has a strong and respected "end-to-end" encryption design. In other words, data is encrypted on the sender's phone, is encrypted all the way from the sender to the receiver, and is only decrypted once it reaches the Zircon app on the receiver's phone. Furthermore, Zircon never stores any user information on its servers. One day, the gossip magazine HottGoss publishes exclusive information about John's clients.
+
+</p> <p> Question:  What is the most likely way that the magazine got the information, even though Zircon has a strong cryptographic design?</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+There was malware on John's phone.
+</pl-answer>
+<pl-answer correct="false">
+Someone observed the network data to get the information.
+</pl-answer>
+<pl-answer correct="false">
+An attacker was able to break the encryption algorithm.
+</pl-answer>
+<pl-answer correct="false">
+Zircon's server was hacked.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>

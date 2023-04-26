@@ -1,0 +1,30 @@
+<pl-question-panel>
+<p>Scenario:  A company has two divisions: Widgets and Gizmos. A new intern has been assigned to the Widget division today to analyze the Widget design procedure for compliance and to tell her manager about any problems she finds. Later in the summer, she will be assigned to edit and update manuals in the Gizmos division. To do her work, she needs permissions to files.
+You are on the system administration team and need to assign her file permissions to enable her to start her work.
+
+For each division, she can have one of four permissions settings:
+
+"Read" means that she can read files for a given division.
+"Write" means that she can modify or create files for a given division.
+
+"Read/Write" means that she can both read and write files for a given division.
+"None" means that she cannot read or write files for a given division.
+
+</p> <p> Question:  What permissions (one of read, write, read/write, or none) for each division (Widgets and Gizmos) should you assign to her today?</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+Widgets=read, Gizmos=none
+</pl-answer>
+<pl-answer correct="false">
+Widgets=read, Gizmos=read,write
+</pl-answer>
+<pl-answer correct="false">
+Widgets=read, Gizmos=read
+</pl-answer>
+<pl-answer correct="false">
+Widgets=write, Gizmos=none
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>

@@ -1,0 +1,62 @@
+<pl-question-panel>
+<p>
+As shown in the example below, each test item has three parts: an optional scenario, a question (stem), and alternatives.  For each test item, please answer the stem, evaluate the item, and optionally write a comment.
+If you believe there is a problem in the answer, report the issue using the report error button at the side. Thank you.
+</p>
+
+<h3>Question</h3>
+How many centimeters in a meter?
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="true">
+
+<pl-answer correct="false">
+10
+</pl-answer>
+
+<pl-answer correct="true">
+100
+</pl-answer>
+
+<pl-answer correct="false">
+1000
+</pl-answer>
+
+<pl-answer correct="false">
+100,000
+</pl-answer>
+
+<pl-answer correct="false">
+1,000,000
+</pl-answer>
+</pl-multiple-choice>
+
+
+<pl-question-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="acceptminor" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="acceptmajor" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50"></textarea></p>
+
+</pl-question-panel>
+
+
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>
+

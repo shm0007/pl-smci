@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  You are a developer for Pizza++, a new online-only pizza delivery company. The previous developer had created a "shopping cart" system where people could create and customize orders. You've added a "purchase" component showing the price of the items in the cart, the applicable tax, and a text entry field allowing the user to add a numeric amount to tip the driver. The tip is added directly to the other costs to produce a total amount owed. A payment processing company handles charging credits cards.
+
+</p> <p> Question:  Which of the following is the most likely potential flaw in the system?</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+People can get free pizza.
+</pl-answer>
+<pl-answer correct="false">
+The payment processor is untrustworthy.
+</pl-answer>
+<pl-answer correct="false">
+The code from the previous developer could have a hidden backdoor.
+</pl-answer>
+<pl-answer correct="false">
+An SQL Injection attack could reveal private customer data.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>

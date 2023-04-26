@@ -1,0 +1,46 @@
+<pl-question-panel>
+<p>Scenario:  John is a CEO of a large corporation. He controls the online bank accounts for the business, using a computer that is connected only to an internal finance network (i.e., it has no Internet access or access to other employee's computers). Instead of memorizing the passwords for the accounts (which are long random strings), John wrote all of the passwords on a sticky note and placed the note in a drawer of his desk, which is in his office. The door to John's office is always locked. There are only two keys; John carries one with him at all times, and the other is locked in the administrative assistant's safe, which is bolted to the floor.
+
+</p> <p> Question:  Choose the most significant problem with this scenario.</p>
+</pl-question-panel>
+<pl-hide-in-panel answer="true">
+<pl-multiple-choice answers-name="answ" weight="1" fixed-order="false">
+<pl-answer correct="true">
+John's office is not physically secure.
+</pl-answer>
+<pl-answer correct="false">
+The passwords are written down.
+</pl-answer>
+<pl-answer correct="false">
+The passwords could be guessed.
+</pl-answer>
+<pl-answer correct="false">
+If the sticky note is lost, John will lose access to the accounts.
+</pl-answer>
+</pl-multiple-choice>
+</pl-hide-in-panel>
+<h3>Review</h3>
+
+<p><input type="radio" name="accept" value="Accept" checked="checked" /> A-Accept</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Minor Revisions" /> B-Accept w/ Minor Revisions</p>
+
+<p><input type="radio" name="accept" value="Accept w/ Major Revisions" /> C-Accept w/ Major Revisions</p>
+
+<p><input type="radio" name="accept" value="Reject" /> D-Reject</p>
+
+<h3>Comments</h3>
+
+<p><textarea name="comments" rows="5" cols="50">{{submitted_answers.comments}}</textarea></p>
+
+</pl-question-panel>
+
+<pl-answer-panel>
+
+<h3>Review</h3>
+
+<p><input type="radio"/>{{submitted_answers.text}}</p>
+
+<p><textarea name="comments" rows="5" cols="100" style="max-width: 100%">{{submitted_answers.comments}}</textarea></p>	
+
+</pl-answer-panel>
