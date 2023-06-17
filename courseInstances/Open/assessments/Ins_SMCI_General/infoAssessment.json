@@ -6,7 +6,7 @@
     "shuffleQuestions": false,
     "type": "Homework",
     "multipleInstance": false,
-    "maxPoints": 25,
+    "maxPoints": 35,
     "allowAccess": [
         {
             "mode": "Public",
@@ -15,18 +15,7 @@
                 "pahp@d.umn.edu",
                 "ehsanhrid@gmail.com",
                 "ehsan.konasl@gmail.com",
-                "mnb@illinois.edu",
-                "peter.reiher@gmail.com",
-                "amir@cs.stonybrook.edu",
-                "sands@morainevalley.edu",
-                "eugene.vasserman@gmail.com",
-                "barker_michael1@columbusstate.edu",
-                "eugene.rooney@gmail.com",
-                "jnrobert.is@gmail.com", 
-                "jvgreen@gmail.com", 
-                "glherman@gmail.com",
-                "mohammadiftekhar.husain@gmail.com",
-                "Loyce.pailen@umuc.edu"
+                "mnb@illinois.edu"
             ],
             "credit": 100,
             "startDate": "2019-06-01T13:59:59",
