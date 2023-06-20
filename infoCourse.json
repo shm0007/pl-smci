@@ -1,7 +1,7 @@
 {
     "uuid": "efe178df-6172-4338-935d-bc1bac4c12a1",
     "name": "SMCI",
-    "title": "SMCI",
+    "title": "Security Misconceptions Convept Inventory",
 	"assessmentSets": [
           {"abbreviation": "SMCI", "name": "Security Misconceptions Convept Inventory", "heading": "Security Misconceptions Convept Inventory", "color": "turquoise2"}
 	],
