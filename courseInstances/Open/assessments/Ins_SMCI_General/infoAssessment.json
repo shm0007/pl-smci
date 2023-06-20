@@ -1,7 +1,8 @@
 {
-    "set": "SMCI-Expert Review", 
+    "set": "SMCI-Expert_Review", 
     "uuid": "7e9503a8-79e4-425f-99a4-8f95a678cd53", 
     "title": "Security Misconceptions Concept Inventory (Expert review)", 
+    "number": "1", 
     "shuffleQuestions": false,
     "type": "Homework",
     "multipleInstance": false,
