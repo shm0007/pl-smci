@@ -7,7 +7,7 @@
     "type": "Exam",
     "multipleInstance": false,
     "autoClose": false,
-    "maxPoints": 35,
+    "maxmanualPoints": 35,
     "allowAccess": [
         {
             "mode": "Public",
@@ -22,177 +22,177 @@
             "questions": [
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_1"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_2"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_3"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_4"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_5"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_6"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_7"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_8"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_9"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_10"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_11"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_12"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_13"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_14"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_15"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_16"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_17"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_18"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_19"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_20"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_21"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_22"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_23"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_24"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_25"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_26"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_27"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_28"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_29"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_30"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_31"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_32"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_33"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_34"
                 },
                 {
                     "numberChoose": 1,
-                    "points": 1,
+                    "manualPoints": 1,
                     "id": "Question_35"
                 }
             ]
