@@ -3,7 +3,9 @@
     "name": "SMCI",
     "title": "Security Misconceptions Concept Inventory",
 	"assessmentSets": [
-          {"abbreviation": "SMCI", "name": "Security Misconceptions Foncept Inventory", "heading": "Security Misconceptions Convept Inventory", "color": "turquoise2"}
+          {"abbreviation": "SMCI-ER", "name": "Security Misconceptions Concept Inventory(Expert Review)", "heading": "Security Misconceptions Concept Inventory", "color": "turquoise2"}
+		  {"abbreviation": "SMCI", "name": "Security Misconceptions Concept Inventory", "heading": "Security Misconceptions Concept Inventory", "color": "turquoise2"}
+		  
 	],
     "topics": [
         {"name": "Authentication", "color": "red1"},
