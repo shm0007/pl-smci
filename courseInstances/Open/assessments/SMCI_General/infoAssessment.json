@@ -7,7 +7,7 @@
     "type": "Exam",
     "multipleInstance": false,
     "autoClose": false,
-    "maxmanualPoints": 35,
+    "maxPoints": 35,
     "allowAccess": [
         {
             "mode": "Public",
