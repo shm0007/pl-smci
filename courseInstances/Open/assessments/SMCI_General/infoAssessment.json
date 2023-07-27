@@ -11,27 +11,12 @@
     "allowAccess": [
         {
             "mode": "Public",
-            "credit": 35,
+            "credit": 100,
             "startDate": "2019-06-01T13:59:59",
             "endDate": "2024-06-01T13:59:59"
         }
     ],
     "zones": [
-        {
-            "title": "Exam Instructions",
-            "questions": [
-                {
-                    "numberChoose": 1,
-                    "points": 0,
-                    "id": "Student_Instructions"
-                },
-                {
-                    "numberChoose": 1,
-                    "points": 0,
-                    "id": "demographics"
-                }
-            ]
-        },
         {
             "title": "Scenario 1",
             "questions": [
