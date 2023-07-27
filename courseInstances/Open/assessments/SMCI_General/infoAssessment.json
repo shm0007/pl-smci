@@ -11,9 +11,9 @@
     "allowAccess": [
         {
             "mode": "Public",
-            "credit": 100,
+            "credit": 35,
             "startDate": "2019-06-01T13:59:59",
-            "endDate": "2022-06-01T13:59:59"
+            "endDate": "2024-06-01T13:59:59"
         }
     ],
     "zones": [
