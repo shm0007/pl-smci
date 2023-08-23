@@ -3,7 +3,7 @@
     "uuid": "29114f9d-cd05-484a-8ead-01b125358abf",
     "title": "Security Misconceptions Concept Inventory",
     "number": "1",
-    "shuffleQuestions": false,
+    "shuffleQuestions": true,
     "type": "Exam",
     "multipleInstance": false,
     "autoClose": false,
@@ -12,8 +12,9 @@
         {
             "mode": "Public",
             "credit": 100,
+            "password": "GoDogs",
             "startDate": "2019-06-01T13:59:59",
-            "endDate": "2021-06-01T13:59:59"
+            "endDate": "2024-06-01T13:59:59"
         }
     ],
     "zones": [
