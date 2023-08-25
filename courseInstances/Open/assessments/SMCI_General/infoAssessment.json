@@ -18,6 +18,16 @@
         }
     ],
     "zones": [
+		{
+			"title": "Exam Instructions and Concent",
+			"questions": [
+				{
+					"numberChoose": 1,
+					"points": 0,
+					"id": "Student_Instructions"
+				}
+			]
+		},
         {
             "title": "Scenario 1",
             "questions": [
