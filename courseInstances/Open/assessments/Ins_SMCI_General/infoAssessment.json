@@ -10,17 +10,6 @@
     "allowAccess": [
         {
             "mode": "Public",
-            "uids": [
-                "ehsan011@d.umn.edu",
-                "pahp@d.umn.edu",
-                "ehsanhrid@gmail.com",
-                "ehsan.konasl@gmail.com",
-                "mnb@illinois.edu",
-		"sherman@umbc.edu",
-		"golaszewski@umbc.edu",
-		"e.golaszewski@gmail.com",
-		"shamim.ehsan@toptal.com"
-            ],
             "credit": 100,
             "startDate": "2019-06-01T13:59:59",
             "endDate": "2024-06-01T13:59:59"
