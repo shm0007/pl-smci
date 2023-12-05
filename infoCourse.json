@@ -4,7 +4,9 @@
     "title": "Security Misconceptions Concept Inventory",
 	"assessmentSets": [
           {"abbreviation": "SMCI-ER", "name": "Security Misconceptions Concept Inventory(Expert Review)", "heading": "Security Misconceptions Concept Inventory", "color": "turquoise2"},
-		  {"abbreviation": "SMCI", "name": "Security Misconceptions Concept Inventory", "heading": "Security Misconceptions Concept Inventory", "color": "turquoise2"}
+		  {"abbreviation": "SMCI", "name": "Security Misconceptions Concept Inventory", "heading": "Security Misconceptions Concept Inventory", "color": "turquoise2"},
+		  {"abbreviation": "SMCI-F23", "name": "Security Misconceptions Concept Inventory Fall 2023 Post-Survey", "heading": "Security Misconceptions Concept Inventory", "color": "turquoise2"}
+		  
 		  
 	],
     "topics": [
